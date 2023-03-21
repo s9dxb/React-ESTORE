@@ -14,6 +14,7 @@ const Header = () => {
     setThemeMode(darkMode);
     console.log(darkMode);
   }, [darkMode]);
+
   const { isEmpty, totalItems } = useCart();
 
   return (
@@ -31,7 +32,7 @@ const Header = () => {
           <Navbar.Brand
             className={darkMode ? "text-dark-primary" : "text-light-primary"}
           >
-            <b>Simple-ecart</b>
+            <b href="/">E-shop App</b>
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -84,4 +85,5 @@ const Header = () => {
     </Navbar>
   );
 };
+
 export default Header;
