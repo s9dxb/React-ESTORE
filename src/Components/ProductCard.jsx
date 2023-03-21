@@ -13,7 +13,6 @@ const ProductCard = (props) => {
   const addToCart = () => {
     addItem(props.data);
   };
-
   return (
     <Card
       style={{ width: "18rem", height: "auto" }}
@@ -64,4 +63,5 @@ const ProductCard = (props) => {
     </Card>
   );
 };
+
 export default ProductCard;
