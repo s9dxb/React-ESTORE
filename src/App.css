@@ -3,19 +3,19 @@
   background-color: black;
 }
 .bg-light-black {
-  background-color: #262626 !important;
+  background-color: #2d033b !important;
 }
 .text-black {
   color: black;
 }
 .text-light-black {
-  color: #262626;
+  color: #2d033b;
 }
 .bg-dark-primary {
-  background-color: #fcbc73 !important;
+  background-color: #810ca8 !important;
 }
 .text-dark-primary {
-  color: #fcbc73 !important;
+  color: #810ca8 !important;
 }
 
 /* theme light */
@@ -26,10 +26,10 @@
   background-color: #dadcde;
 }
 .bg-light-primary {
-  background-color: #191659 !important;
+  background-color: #802c6e !important;
 }
 .text-light-primary {
-  color: #191659 !important;
+  color: #802c6e !important;
 }
 .react-tel-input input {
   width: 100% !important;
