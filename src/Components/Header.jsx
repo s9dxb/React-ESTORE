@@ -32,7 +32,7 @@ const Header = () => {
           <Navbar.Brand
             className={darkMode ? "text-dark-primary" : "text-light-primary"}
           >
-            <b href="/">E-shop App</b>
+            <b href="/">E-Store</b>
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

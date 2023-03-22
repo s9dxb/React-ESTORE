@@ -44,7 +44,7 @@ const MyAccount = () => {
               </Col>
               <Col xs={9} className="pt-1">
                 <span>Hello,</span>
-                <h4>Code With yd</h4>
+                <h4>Sabrina</h4>
               </Col>
             </Row>
             <Nav variant="pills" className="flex-column">
@@ -78,18 +78,18 @@ const MyAccount = () => {
               <Tab.Pane eventKey="my-orders">
                 <Heading heading="My Orders" size="h3" />
                 <OrderCard
-                  orderDate="24 Jun, 2022"
-                  orderId="1234"
+                  orderDate="24 March, 2023"
+                  orderId="0001"
                   title="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"
                   img="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
-                  deliveredDate="05 July, 2022"
+                  deliveredDate="12 February, 2023"
                 />
                 <OrderCard
-                  orderDate="24 Jun, 2022"
-                  orderId="1334"
+                  orderDate="24 March, 2023"
+                  orderId="0002"
                   title="Mens Casual Premium Slim Fit T-Shirts"
                   img="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
-                  deliveredDate="05 July, 2022"
+                  deliveredDate="05 March, 2023"
                 />
               </Tab.Pane>
               <Tab.Pane eventKey="account-details">
