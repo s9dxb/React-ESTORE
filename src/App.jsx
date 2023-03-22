@@ -3,12 +3,15 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useThemeHook } from "./GlobalComponents/ThemeProvider";
 import Header from "./Components/Header";
-// import { Router } from "@reach/router";
+import { Router } from "@reach/router";
 import { Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/Home";
 import Cart from "./Pages/Cart";
 import ProductDetails from "./Pages/ProductDetails";
+import MyAccount from "./Pages/MyAccount";
+import SignIn from "./Pages/SignIn";
+import Register from "./Pages/Register";
 
 function App() {
   const [theme] = useThemeHook();
@@ -18,14 +21,14 @@ function App() {
       style={{ height: "100vh", overflowY: "auto" }}
     >
       <Header />
-      <Routes>
-        <Route path="/src/Pages/Home.jsx" element={<Home />} />
-        {/* <MyAccount path="my-account" /> */}
-        {/* <SignIn path="sign-in" /> */}
-        {/* <Register path="register" /> */}
-        <Route path="product-details/:productId" element={<ProductDetails />} />
-        <Route path="/Cart" element={<Cart />} />
-      </Routes>
+      <Router>
+        <Home path="/" />
+        <MyAccount path="my-account" />
+        <SignIn path="sign-in" />
+        <Register path="register" />
+        <ProductDetails path="product-details/:productId" />
+        <Cart path="/cart" />
+      </Router>
     </main>
   );
 }
